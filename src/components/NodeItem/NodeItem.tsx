@@ -40,7 +40,6 @@ const NodeItem: React.FC<NodeItemProps> = ({
       name: "",
       children: type === "folder" ? [] : undefined,
     };
-    console.log("🚀 ~ handleAddChild ~ newChild:", newChild);
     updateNode(node.id, {
       ...node,
       children: [...(node.children || []), newChild],
@@ -70,7 +69,6 @@ const NodeItem: React.FC<NodeItemProps> = ({
     );
   };
 
-  // UI
   return (
     <div className={styles.nodeItem}>
       <div className={styles.nodeHeader}>
