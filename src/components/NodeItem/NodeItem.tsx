@@ -142,6 +142,12 @@ const NodeItem: React.FC<NodeItemProps> = ({
           >
             Add File
           </button>
+          <button
+            className={styles.cancel}
+            onClick={() => setAddingChild(false)}
+          >
+            Cancel
+          </button>
         </div>
       )}
       {renderChildren()}

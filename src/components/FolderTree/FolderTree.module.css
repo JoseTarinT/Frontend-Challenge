@@ -1,20 +1,28 @@
 .treeContainer {
   padding: 1rem;
 }
+
 .addRootBtn {
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   background-color: #000000;
   color: #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.addRootBtn:hover {
+  background-color: #251a4a;
 }
 .treeList {
   margin-left: 0;
 }
+
 .jsonOutput {
   margin-top: 2rem;
   width: 50%;
 }
+
 .jsonTextarea {
   width: 100%;
   font-family: monospace;
