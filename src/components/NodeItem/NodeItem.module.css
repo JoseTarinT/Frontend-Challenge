@@ -1,0 +1,69 @@
+.nodeItem {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  border-left: 2px solid #eee;
+  padding-left: 0.5rem;
+}
+
+.nodeHeader {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nodeName {
+  font-weight: bold;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.actions {
+  display: flex;
+  gap: 0.25rem;
+  visibility: hidden;
+}
+
+.nodeHeader:hover .actions {
+  visibility: visible;
+}
+
+.createFolder,
+.createFile {
+  background-color: #000000;
+  color: #fff;
+  border-radius: 35px;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.addChildBtn,
+.deleteBtn,
+.saveBtn,
+.cancelBtn {
+  padding: 0.15rem 0.8rem;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nameInput {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.childTypeSelect {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.children {
+  margin-left: 1rem;
+}
